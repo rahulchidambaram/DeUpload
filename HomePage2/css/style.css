@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #651fff;
+  --section-padding: 80px 0px;
+  --para-color: #838696;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+}
+
+/* Default class */
+.word-color {
+  color: var(--primary-color);
+}
+
+.color-btn {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.color-btn-2 {
+  padding: 5px 15px;
+  background-color: #ececfe;
+  border-radius: 12px;
+  color: var(--primary-color);
+}
+
+.color-btn-3 {
+  padding: 5px 15px;
+  border-radius: 12px;
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+.color-btn-3 a {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+.ipfs-2 p,
+.team-collab p,
+.design-wrapper p,
+.ipfs-works p,
+.pricing-box span,
+.pricing-wrapper p,
+.works p,
+.getStarted p {
+  color: var(--para-color);
+}
+
+/* Section */
+
+.ipfs,
+.ipfs-2,
+.file-sharing,
+.ipfs-works,
+.pricing-details,
+.works,
+.getStarted {
+  padding: var(--section-padding);
+}
+
+.banner-wrapper {
+  padding: 80px 0 0 80px;
+}
+
+.banner,
+.works {
+  background-color: #e0f7fa;
+}
+
+/* HEADER */
+.header-wrapper a {
+  color: #000000;
+}
+
+/* IPFS */
+.ipfs-wrapper {
+  color: var(--primary-color);
+}
+
+.ipfs-wrapper > div > div {
+  background-color: #ececfe;
+  border-radius: 24px;
+  padding: 70px 50px;
+}
+
+/* IPFS 2 */
+
+/* Team  Collab*/
+.team-wrapper img {
+  width: 55%;
+}
+
+/* file sharing */
+.design-wrapper > div > div img {
+  width: 50%;
+}
+
+.design-wrapper > div > div:first-child > div,
+.design-wrapper > div > div:last-child > div {
+  padding: 50px 50px 0px 50px;
+  border-radius: 24px;
+  background-color: #e0f7fa;
+}
+
+/* IPFS WORKS */
+.ipfs-works {
+  background: linear-gradient(180deg, #f2eeeb 0%, #ececfe 100%);
+}
+
+.ipfs-works img {
+  width: 70%;
+}
+
+/* PRICING */
+.pricing-wrapper {
+  margin-bottom: 100px;
+}
+
+/* .pricing-box {
+  background: url("/11-deupload/HomePage2/img/pricing/Ellipse.png") no-repeat
+    bottom right;
+} */
+
+.pricing-box p {
+  margin: 0 !important;
+  padding: 5px 15px;
+  border: 1px solid var(--primary-color);
+  background-color: #ececfe;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px !important;
+  color: var(--primary-color);
+}
+
+.price-box-1,
+.price-box-2,
+.price-box-3 {
+  padding: 40px;
+  border-radius: 24px;
+  box-shadow: 0px 4px 24px 0px rgba(0, 0, 0, 0.2);
+}
+
+.price-box-2 {
+  position: relative;
+  border: 4px solid black;
+}
+
+.price-recommended {
+  padding: 2px 35px;
+  background-color: black;
+  color: #ffffff !important;
+  font-size: 14px !important;
+  border-radius: 24px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  position: absolute;
+  transition: all 0.3s ease;
+  text-align: center;
+  top: 0;
+  right: 23%;
+}
+
+.price-btn a {
+  font-weight: 700;
+  font-size: 18px !important;
+  color: var(--primary-color);
+}
+
+.pricing-box ul li {
+  margin-bottom: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+/* WORKS */
+.works-wrapper {
+  padding: 30px 60px;
+}
+
+/* GET STARTED  */
+.getStarted-wrapper > div:first-child {
+  background-color: #e0f7fa;
+  border-radius: 24px;
+  padding: 50px;
+}
+
+.getStarted-wrapper > div:last-child {
+  background-color: #ececfe;
+  border-radius: 24px;
+  padding: 50px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1a284e;
+  color: #ffffff;
+}
+
+.footer-wrapper {
+  padding: 100px 100px 0px 100px;
+}
+
+.list-unstyled li a {
+  color: #ffffff;
+  margin-bottom: 4px;
+  font-size: 16px;
+}
+
+.list-unstyled li a:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
+
+  .design-wrapper > div > div img {
+    width: 100%;
+  }
+
+  .team-wrapper img {
+    width: 90%;
+  }
+
+  .ipfs-works img {
+    width: 100%;
+  }
+
+  .works-wrapper {
+    padding: 75px 100px;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  h1 {
+    font-size: 56px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
+
+  h3 {
+    font-size: 42px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+
+  h5 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  h6 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  header .container-fluid {
+    max-width: 1320px;
+  }
+}
+
+@media (max-width: 992px) {
+  .price-recommended {
+    right: 38%;
+    font-size: 12px !important;
+  }
+}
